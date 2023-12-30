@@ -1,7 +1,4 @@
-'''
- 목표 범위 4로 나눠가면서 목표 범위만큼 같은수면 되는듯
 
-'''
 import sys
 def solution(search_range,x,y,cnt_col):
     base=field[y][x]

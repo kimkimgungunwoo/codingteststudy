@@ -1,7 +1,4 @@
-'''
-1.분기점을 어떻게 처리하지
 
-'''
 import sys
 from collections import *
 

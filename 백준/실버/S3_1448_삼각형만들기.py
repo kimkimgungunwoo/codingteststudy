@@ -1,10 +1,3 @@
-'''
- 다 배열에 담고 정렬
-    제일 큰놈부터 내려오기
-    반복문 쓰기?
-
-
-'''
 import sys
 N=int(sys.stdin.readline().strip())
 dlist=[]

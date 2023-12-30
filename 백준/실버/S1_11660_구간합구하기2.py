@@ -1,4 +1,4 @@
-#발상은 잘 했는데 2차원 배열 다루는 디테일이 차이가 있네
+
 
 import sys
 input=sys.stdin.readline

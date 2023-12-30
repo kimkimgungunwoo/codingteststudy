@@ -19,7 +19,7 @@ def compress_data(pixel, answer, x, y, M):
             answer.append(")")
         else:
             answer.append(pixel[y][x])
-s
+
 N = int(input())
 M = N
 pixel = []

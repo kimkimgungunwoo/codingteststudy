@@ -1,8 +1,4 @@
-'''
-1.그래프 탐색 여러번 반복해야함-visted매번 초기화
-2.가까이에 있는 애부터 바꿔가면서 재귀
 
-'''
 
 import sys
 input=sys.stdin.readline
