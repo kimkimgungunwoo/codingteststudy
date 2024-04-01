@@ -1,10 +1,3 @@
-'''
-벡터dp사용
-왼,대,위의 숫자들중 최솟값+1
-
-dp[i][j]=min(dp[i-1][j],dp[i-1][j-1],dp[i][j-1])+1
-'''
-
 import sys
 input=sys.stdin.readline
 m,n=map(int,input().split())
@@ -24,13 +17,3 @@ for i in range(1,m+1):
         answer=max(field[i][j],answer)
 print(answer**2)
             
-
-
-        
-'''
-3 6
-000100
-011110
-011111
-
-'''
