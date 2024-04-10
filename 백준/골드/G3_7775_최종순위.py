@@ -42,12 +42,12 @@ else:
         answer[0]+=p
     else:
         answer="Wrong information"
-answpwhwrkxsp=[]    
+whsskdjfuqsp=[]    
 if answer!="Wrong information":
     for i in range(k):
-        if answer[i] not in answpwhwrkxsp:
-            answpwhwrkxsp.append(answer[i])
-    if len(answpwhwrkxsp)!=d:
+        if answer[i] not in whsskdjfuqsp:
+            whsskdjfuqsp.append(answer[i])
+    if len(whsskdjfuqsp)!=d:
         answer="Wrong information"
 if answer=="Wrong information":
     print(answer)
