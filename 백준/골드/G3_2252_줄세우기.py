@@ -11,6 +11,7 @@ std_lst[0]=-1
 field=[[] for x in range(N+1)]
 AnswerList=[]
 zeroque=[]
+
 for i in range(M):
     a,b=map(int,input().split())
     field[a].append(b)
