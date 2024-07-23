@@ -13,6 +13,7 @@ def Dfs(y, x, H):
         if 0 <= ny < N and 0 <= nx < N:
             if field[ny][nx] > H and not visited[ny][nx]:
                 Dfs(ny, nx, H)
+                        
 
 N = int(input())
 field = []
