@@ -29,7 +29,12 @@ def solution(m,n,puddles):
         for j in range(1,m+1):
             if i==j==1:
                 continue
-            field[i][j]=field[i-1][j]+field[i][j-1]    
+            if field[i][j]==-1:
+                field[i][j]=0
+            else:
+                field[i][j]=field[i-1][j]+field[i][j-1]    
+            
+      
     answer=field[n][m]%1000000007
     return answer
     
