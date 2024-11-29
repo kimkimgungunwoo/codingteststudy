@@ -18,23 +18,18 @@ def dfs(cnt,x,y):
     global ans 
     if check_ladder():
         ans=min(cnt,ans)
+        return 
     elif cnt==3 or ans<=cnt:
         return 
     
-    nw=y
+    
     for i in range(x,H):
-            if i!=x:
-                nw=0
-                
-                for j in range(nw,N-1):
-                    if not field[i][j] and not field[i][j+1]:
-                        if j>0 and field[i][j-1]:
-                            continue
-                        
-                        field[i][j]=True
-                        dfs(cnt+1,i,j+2)
-                        field[i][j]=False
-        
+        for j in range(0,N-1):
+            if field[i][j]==0:
+                field[i][j]=True
+                dfs(cnt+1,i,j+2)
+                field[i][j]=False
+    
 N,M,H=map(int,input().split())
 field=[[False] *N for x in range(H)]
 for _ in range(M):
