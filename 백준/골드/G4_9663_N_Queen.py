@@ -1,5 +1,4 @@
 import sys
-import math
 input=sys.stdin.readline
 
 def solution(queen_field,y,xlist):
@@ -22,11 +21,6 @@ def solution(queen_field,y,xlist):
                 solution(queen_field,y+1,xlist)
                 xlist[i]=True
                 queen_field.pop()
-                
-                    
-    
-    
-    
 ans=0
 N=int(input())
 queen_field=[]
